@@ -133,3 +133,82 @@ Task 6 (house price prediction)
    Evaluation metrics like MAE and RMSE help measure prediction performance.
    Model accuracy depends on data quality and feature selection.
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+ Adanced Tasks of Developer Hub Corporation
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Task 1 (News Topic Classifier Using BERT)
+
+
+1. Task objective
+   The objective of this project is to fine-tune a transformer-based language model (BERT) to classify news headlines into
+   predefined categories. The model learns to automatically understand and categorize text into four classes: World, Sports, Business, and
+   Sci/Tech. Finally, the trained model is deployed using a web interface (Streamlit) for real-time prediction of news headlines.
+  
+
+3. Dataset used
+   # Download latest version
+   https://www.kaggle.com/code/mohsinsial/ag-news-classifications/notebook
+
+
+5. Models applied
+   bert-base-uncased from BERT 
+  
+
+7. Key results and findings
+   | Metric   | Value      |
+   | -------- | ---------- |
+   | Accuracy |   94.59%   |
+   | F1 Score |   94.59%   |
+   | Loss     |   0.176    |
+
+   The fine-tuned BERT model successfully classifies news headlines into four categories with high accuracy (~95%). The
+   model demonstrates strong generalization and is effectively deployed using a Streamlit-based interactive web application for
+   real-time predictions.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Task 1 (End-to-End ML Pipeline with Scikit-learn Pipeline API)
+
+
+1. Task objective
+ 
+  
+
+3. Dataset used
+   # Download latest version
+ 
+
+
+5. Models applied
+    
+  
+
+7. Key results and findings
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Task 1 (News Topic Classifier Using BERT)
+
+
+1. Task objective
+ 
+  
+
+3. Dataset used
+   # Download latest version
+ 
+
+
+5. Models applied
+    
+  
+
+7. Key results and findings
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+

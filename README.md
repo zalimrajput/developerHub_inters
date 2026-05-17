@@ -174,19 +174,34 @@ Task 1 (End-to-End ML Pipeline with Scikit-learn Pipeline API)
 
 
 1. Task objective
- 
+   The objective of this project was to build an end-to-end machine learning pipeline to predict customer churn and identify
+   customers likely to leave a telecom service. The goal was to improve prediction performance using preprocessing, model tuning,
+   and threshold optimization. 
   
 
 3. Dataset used
    # Download latest version
- 
+   https://www.kaggle.com/code/tugceeeds/telco-churn-dataset/notebook
 
 
 5. Models applied
-    
+   Logistic Regression (with class balancing)
+   Random Forest Classifier (with class balancing)
+   GridSearchCV for hyperparameter tuning
+   Threshold tuning for classification optimization 
   
 
 7. Key results and findings
+   Logistic Regression performed well for baseline linear patterns in data.
+   Random Forest improved handling of non-linear relationships.
+   Class imbalance handling (class_weight="balanced") improved recall for churn customers.
+   Threshold tuning improved F1-score and reduced misclassification.
+   Final model achieved balanced performance but still showed some FP and FN due to overlapping customer behavior patterns.
+
+   Important Insights 
+   Adding feature engineering significantly improves model performance, especially for reducing:
+   False Positives (FP) → customers wrongly predicted to churn
+   False Negatives (FN) → customers wrongly predicted as non-churn
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------

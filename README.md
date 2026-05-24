@@ -235,6 +235,8 @@ Task 3 (Multimodal ML – Housing Price Prediction Using Images + Tabular Data)
    | 9,640,000    | 9,442,722       |
    | 15,000,000   | 15,445,524      |
    | 7,300,000    | 7,107,063       |
+
+   
    These examples show that the model achieved good prediction accuracy for many medium-range properties. 
    The multimodal model successfully learned from both image and tabular data.
    Predictions were reasonably accurate for standard housing prices.

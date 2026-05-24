@@ -170,7 +170,7 @@ Task 1 (News Topic Classifier Using BERT)
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-Task 1 (End-to-End ML Pipeline with Scikit-learn Pipeline API)
+Task 2 (End-to-End ML Pipeline with Scikit-learn Pipeline API)
 
 
 1. Task objective
@@ -200,30 +200,47 @@ Task 1 (End-to-End ML Pipeline with Scikit-learn Pipeline API)
 
    Important Insights 
    Adding feature engineering significantly improves model performance, especially for reducing:
-   False Positives (FP) → customers wrongly predicted to churn
+   False Positives (FP) → customers wrongly predicted to churn,
    False Negatives (FN) → customers wrongly predicted as non-churn
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-Task 1 (News Topic Classifier Using BERT)
+Task 3 (Multimodal ML – Housing Price Prediction Using Images + Tabular Data)
 
 
 1. Task objective
- 
+   The objective of this project was to develop a multimodal machine learning model for predicting housing prices using both:
+   Structured tabular data (e.g., no.of bedrooms, city, area, location,price, etc.)
+   House images processed through deep learning techniques
   
 
 3. Dataset used
    # Download latest version
- 
+   https://www.kaggle.com/datasets/jacksondivakarr/house-price-prediction-dataset
 
 
 5. Models applied
-    
+   A Convolutional Neural Network (CNN) was used to extract meaningful visual features from house images. 
   
 
 7. Key results and findings
-
+   Final Evaluation Metrics
+   MAE (Mean Absolute Error): 2,418,070.31
+   RMSE (Root Mean Squared Error): 5,644,552.74
+   | Actual Price | Predicted Price |
+   | ------------ | --------------- |
+   | 11,399,999   | 10,535,612      |
+   | 9,382,000    | 9,403,644       |
+   | 9,640,000    | 9,442,722       |
+   | 15,000,000   | 15,445,524      |
+   | 7,300,000    | 7,107,063       |
+   These examples show that the model achieved good prediction accuracy for many medium-range properties. 
+   The multimodal model successfully learned from both image and tabular data.
+   Predictions were reasonably accurate for standard housing prices.
+   Large errors occurred for extreme or outlier properties and because of small dataset of 200 , it is not possible to take 29k+ imgaes
+   for train a cnn because we use one row with one image and our dataset has 29k+ rows .
+   and another issue is we randomly take images of houses so it also effect the price of house .
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 

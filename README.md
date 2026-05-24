@@ -240,8 +240,8 @@ Task 3 (Multimodal ML – Housing Price Prediction Using Images + Tabular Data)
    These examples show that the model achieved good prediction accuracy for many medium-range properties. 
    The multimodal model successfully learned from both image and tabular data.
    Predictions were reasonably accurate for standard housing prices.
-   Large errors occurred for extreme or outlier properties and because of small dataset of 200 , it is not possible to take 29k+ imgaes
-   for train a cnn because we use one row with one image and our dataset has 29k+ rows .
+   Large errors occurred for extreme or outlier properties and because of small dataset of 200 , it is not possible to take 29k+ images
+   for train a cnn because we can use one row with one image and our dataset has 29k+ rows .
    and another issue is we randomly take images of houses so it also effect the price of house .
 
 -----------------------------------------------------------------------------------------------------------------------------------------
